@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Football Scores</string>
+    <string name="hosts">hosts</string>
+    <string name="guests">guests</string>
+    <string name="no_result">0</string>
+    <string name="plus_1_goal">+ 1 goal</string>
+    <string name="plus_1_foul">+ 1 foul</string>
+    <string name="reset">reset</string>
+</resources>

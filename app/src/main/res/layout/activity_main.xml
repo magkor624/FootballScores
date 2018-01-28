@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.footballscores.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/blue_background"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="#283593" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blue_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pilka2" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_a_name"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:text="@string/hosts"
+                    android:textColor="#64DD17"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/no_result"
+                    android:textColor="#64DD17"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goalsTeamA"
+                    android:text="@string/plus_1_goal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/team_a_foul"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/no_result"
+                    android:textColor="#D7CCC8"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:onClick="foulsTeamA"
+                    android:text="@string/plus_1_foul"
+                    android:textColor="#455A64"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#388E3C" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_b_name"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:text="@string/guests"
+                    android:textColor="#64DD17"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/no_result"
+                    android:textColor="#64DD17"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="goalsTeamB"
+                    android:text="@string/plus_1_goal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/team_b_foul"
+                    style="@style/CustomText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/no_result"
+                    android:textColor="#D7CCC8"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:onClick="foulsTeamB"
+                    android:text="@string/plus_1_foul"
+                    android:textColor="#455A64"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="32dp"
+            android:onClick="reset"
+            android:text="@string/reset"
+            android:textColor="#FF6F00"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
