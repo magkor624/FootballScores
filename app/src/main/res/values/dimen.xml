@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Font size for TextViews and Buttons. -->
+    <dimen name="font_big">32sp</dimen>
+    <dimen name="font_moderate">24sp</dimen>
+    <dimen name="font_small">18sp</dimen>
+    <dimen name="font_smallest">16sp</dimen>
+    <!-- Margin size on the top of the screen in portrait layout. -->
+    <dimen name="margin_huge">60dp</dimen>
+    <!-- Margin sizes for TextViews and Buttons. -->
+    <dimen name="margin_bigest">32dp</dimen>
+    <dimen name="margin_big">20dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="margin_smallest">8dp</dimen>
+</resources>

@@ -18,7 +18,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_huge"
+        android:layout_marginTop="@dimen/margin_small"
         android:orientation="horizontal">
         <!-- Left column for hosts team. -->
         <LinearLayout
@@ -29,49 +29,50 @@
             <!-- Hosts' team name. -->
             <TextView
                 android:id="@+id/team_a_name"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_big"
-                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_smallest"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:text="@string/hosts"
                 android:textColor="@color/orange" />
             <!-- Number of goals of hosts' team. -->
             <TextView
                 android:id="@+id/team_a_score"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_big"
-                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginBottom="@dimen/margin_smallest"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:text="@string/no_result"
                 android:textColor="@color/orange" />
             <!-- Button adding goals of hosts' team. -->
             <Button
-                style="@style/CustomButtonPortrait"
+                style="@style/CustomButtonLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_bigest"
-                android:layout_marginTop="@dimen/margin_bigest"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:onClick="goalsTeamA"
                 android:text="@string/plus_1_goal" />
             <!-- Number of fouls of hosts' team. -->
             <TextView
                 android:id="@+id/team_a_foul"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/margin_smallest"
-                android:layout_marginTop="@dimen/margin_bigest"
+                android:layout_marginTop="@dimen/margin_small"
                 android:text="@string/no_result"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/font_moderate" />
             <!-- Button adding fouls of hosts' team. -->
             <Button
-                style="@style/CustomButtonPortrait"
+                style="@style/CustomButtonLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_smallest"
                 android:onClick="foulsTeamA"
                 android:text="@string/plus_1_foul"
                 android:textColor="@color/grey" />
@@ -91,49 +92,49 @@
             <!-- Guests' team name. -->
             <TextView
                 android:id="@+id/team_b_name"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_big"
-                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_smallest"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:text="@string/guests"
                 android:textColor="@color/orange" />
             <!-- Number of goals of guests' team. -->
             <TextView
                 android:id="@+id/team_b_score"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_big"
-                android:layout_marginTop="@dimen/margin_big"
+                android:layout_marginBottom="@dimen/margin_smallest"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:text="@string/no_result"
                 android:textColor="@color/orange" />
             <!-- Button adding goals of guests' team. -->
             <Button
-                style="@style/CustomButtonPortrait"
+                style="@style/CustomButtonLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_bigest"
-                android:layout_marginTop="@dimen/margin_bigest"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_smallest"
                 android:onClick="goalsTeamB"
                 android:text="@string/plus_1_goal" />
             <!-- Number of fouls of guests' team. -->
             <TextView
                 android:id="@+id/team_b_foul"
-                style="@style/CustomTextPortrait"
+                style="@style/CustomTextLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_smallest"
-                android:layout_marginTop="@dimen/margin_bigest"
+                android:layout_marginTop="@dimen/margin_small"
                 android:text="@string/no_result"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/font_moderate" />
             <!-- Button adding fouls of guests' team. -->
             <Button
-                style="@style/CustomButtonPortrait"
+                style="@style/CustomButtonLandscape"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/font_small"
+                android:layout_marginBottom="@dimen/margin_smallest"
                 android:onClick="foulsTeamB"
                 android:text="@string/plus_1_foul"
                 android:textColor="@color/grey" />
@@ -141,7 +142,7 @@
     </LinearLayout>
     <!-- Button with all scores reset. -->
     <Button
-        style="@style/CustomButtonPortrait"
+        style="@style/CustomButtonLandscape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

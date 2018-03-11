@@ -1,17 +1,39 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#4CAF50</item>
-        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
         <item name="colorAccent">#8BC34A</item>
     </style>
-    <!-- Base text style -->
-    <style name="CustomText">
+    <!-- Base TextView style for portrait layout -->
+    <style name="CustomTextPortrait">
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+    <!-- Base TextView style for landscape layout -->
+    <style name="CustomTextLandscape">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/font_moderate</item>
+    </style>
+    <!-- Base Button style for portrait layout -->
+    <style name="CustomButtonPortrait">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+    <!-- Base Button style for landscape layout -->
+    <style name="CustomButtonLandscape">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/font_smallest</item>
     </style>
 
 </resources>

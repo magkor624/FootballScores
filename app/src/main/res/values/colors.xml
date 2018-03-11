@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!-- Color for the View separating teams -->
+    <color name="green">#388E3C</color>
+    <!-- Color for font for looser TextViews with the name and the result and for the Reset Button font -->
+    <color name="orange">#F57F17</color>
+    <!-- Color for font for winner TextViews with the name and the result -->
+    <color name="red">#D50000</color>
+    <!-- Color for font for TextViews with foul result -->
+    <color name="grey">#455A64</color>
+
 </resources>
