@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the plus button +1 GOAL for Team A is clicked.
+     * This method is called when the button +1 GOAL for Team A is clicked.
      */
     public void goalsTeamA(View view) {
         scoreTeamA = scoreTeamA + 1;
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the plus button +1 FOUL Team A is clicked.
+     * This method is called when the button +1 FOUL Team A is clicked.
      */
     public void foulsTeamA(View view) {
         foulTeamA = foulTeamA + 1;
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the plus button +1 GOAL for Team B is clicked.
+     * This method is called when the button +1 GOAL for Team B is clicked.
      */
     public void goalsTeamB(View view) {
         scoreTeamB = scoreTeamB + 1;
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the plus button +1 FOUL Team B is clicked.
+     * This method is called when the button +1 FOUL Team B is clicked.
      */
     public void foulsTeamB(View view) {
         foulTeamB = foulTeamB + 1;
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method is called when the plus button +RESET is clicked.
+     * This method is called when the button RESET is clicked.
      */
 
     public void reset(View view) {
